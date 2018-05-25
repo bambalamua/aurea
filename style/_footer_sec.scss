@@ -1,0 +1,48 @@
+/***************************FOOTER-SEC*******************/
+.footer_sec{
+	background: #0A7DAF;
+	height: auto;
+	width: 100%;
+	padding: 40px;
+}
+	.social-list{
+		font-size: 30px;
+		li{
+			display: inline-block;
+		}
+		a{
+			font-size: 40px;
+			color: #fff;
+			transition: 0.5s;
+		}
+		a:hover{
+			color: #E2502D;
+		}
+	}
+	.copyright{
+		width: 100%;
+		
+		text-align: center;
+		p{
+			font-size: 10px;
+			color: #fff;
+			line-height: 60px;
+			font-family: "AvenirNextThin";
+		}
+	}
+	.to-top{
+		background: #045F87;
+		height: 40px;
+		width: 40px;
+		text-align: center;
+		line-height: 40px;
+		margin: 7px auto;
+		border-radius: 5px;
+		vertical-align: middle;
+
+		a{
+			color: #fff;
+			font-size: 30px;
+
+		}
+	}

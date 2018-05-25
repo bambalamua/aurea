@@ -1,0 +1,46 @@
+/***************************ABOUT-US*******************/
+.about_us__sec{
+	width: 100%;
+	height: auto;
+	background: url(../images/bg-3.png) no-repeat right top;
+	background-size: 50% 100% ;
+	border-bottom: 5px solid #EFB185;
+}
+	.about_us_title{
+		text-align: center;
+		padding: 40px 0;
+		h1{
+			color: #6ECBF2;
+			border: 5px solid #6ECBF2;
+			display: inline-block;
+			font-size: 40px;
+			font-family: "AvenirNextBold";
+			font-weight: 700;
+			line-height: 72px;
+			padding: 0 15px;
+		}
+	}
+		.about_us-text{
+			p{
+				font-size: 18px;
+				font-family: "HelveticaNeue";
+				line-height: 30px;
+				color: #000;
+				margin: 0 0 45px;
+			}
+			span{
+				font-size: 24px;
+				color: #F47920;
+			}
+		}
+@media (max-width: 1000px){
+	.about_us__sec{
+		.col-6{
+			width: 100%;
+		}
+		img{
+			margin: 0 auto;
+			display: block;
+		}
+	}
+}

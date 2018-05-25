@@ -1,0 +1,36 @@
+/***************************FEATURES-LIST*******************/
+.features__list{
+	height: auto;
+	width: 100%;
+	background: #fff;
+	text-align: center;
+	padding-bottom: 30px;
+}
+	.features__pic-holder{
+		margin: 50px 0;
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	.features__text-holder{
+		max-width: 350px;
+		margin: 0 auto;
+		p{
+			font-size: 18px;
+			line-height: 30px;
+			font-family: "HelveticaNeue";
+			color: #000;
+		}
+		span{
+			font-size: 24px;
+			color: #f47920;
+		}
+	}
+@media (max-width:768px){
+	.features__list{
+		.col-6{
+			width: 100%;
+		}
+	}
+}

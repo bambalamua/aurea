@@ -1,0 +1,72 @@
+/***************************PERCENT-SEC*******************/
+.percent__sec{
+	width: 100%;
+	background: #fff;
+	height: auto;
+	text-align: center;
+	padding:105px 0 40px 0;
+}
+	.percent__load{
+		margin-left: 45px;
+		h4{
+			display: block;			
+			font-size:30px ;
+			color: #f47920;
+			font-family: "AvenirNextBold";
+			line-height: 140px;
+		}
+	}
+		.bg-load80{
+			background: url(../images/80.png) no-repeat center;
+			height: 145px;
+			width: 145px;
+		}
+		.bg-load50{
+			background: url(../images/50.png) no-repeat center;
+			height: 145px;
+			width: 145px;
+		}
+		.bg-load30{
+			background: url(../images/30.png) no-repeat center;
+			height: 145px;
+			width: 145px;
+		}
+		.bg-load85{
+			background: url(../images/85.png) no-repeat center;
+			height: 145px;
+			width: 145px;
+		}
+	.percent__content{
+		margin-top: 30px;
+		padding: 0 30px;
+		h3{
+			font-weight: 700;
+			font-size: 18px;
+			font-family: "AvenirNextBold";
+			color: #F47920;
+		}
+		p{
+			font-size: 18px;
+			line-height: 30px;
+			font-family: "HelveticaNeue";
+			color: #000;
+		}
+	}
+@media (max-width:768px){
+	.percent__sec{
+	.container{
+		width: 90%;
+	}	
+		.col-3{
+			width: 49.99%;
+		}
+	}
+	.percent__load{
+		margin: 0 auto;
+	}
+	.percent__content{
+		padding: 0 10px;
+		max-width: 250px;
+		margin: 30px auto;
+	}
+}

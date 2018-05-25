@@ -1,0 +1,50 @@
+/***************************HOW-WE-WORK-SEC*******************/
+.how-we-work__sec{
+	width: 100%;
+	height: auto;
+	background: url(../images/service-line-bg.jpg) no-repeat top right;
+	background-size: 50%;
+	text-align: center;
+
+}
+	.how-we-work_title{
+		h1{
+			color: #009EDF;
+			font-size: 40px;
+			line-height: 44px;
+			font-weight: 700;
+			font-family: "AvenirNextBold";
+			padding: 67px 0;
+		}
+	}
+	.pic-holder{
+		
+		img{
+			border-bottom: 5px solid #00A1E4;
+			padding: 0 30px 30px;
+			margin: 0 ;
+		}
+	}
+	.text-holder{
+			margin: 25px 10px;
+			p{
+				font-size: 18px;
+				font-family: "HelveticaNeue";
+				line-height: 30px;
+				color: #000;
+			}
+	}
+@media (max-width: 768px){
+	.how-we-work__sec{
+		.col-3{
+			width: 49.99%;
+		}
+	}
+}
+@media (max-width: 320px){
+	.how-we-work__sec{
+		.col-3{
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,38 @@
+@import "_grid";
+@import "_header";
+@import "_about__video__sec";
+@import "_about2";
+@import "_rpa-list-sec"; 
+@import "_percent-sec";
+@import "_servicos";
+@import "_features-list";
+@import "_benefits-list";
+@import "_how-we-work__sec";
+@import "_about-us";
+@import "_contacts";
+@import "_footer_sec";
+
+.container{
+	margin: 0 auto;
+}
+img{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: auto;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.player .vp-player-layout{
+	position: relative;
+}
+body{
+	overflow-x:hidden;
+	background: #fff;
+}

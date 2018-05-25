@@ -1,0 +1,191 @@
+/***************************CONTACTS*******************/
+.contacts__sec{
+	background: #00A1E4;
+	background-size: 50%;
+	width: 100%;
+	height: auto;
+	color: #fff;
+	font-weight: 700;
+	font-family: "AvenirNextBold";
+	border-bottom: 5px solid #26CEF2;
+
+}
+	.bg-line{
+		background: url(../images/service-line-bg.jpg) no-repeat bottom right;
+		background-size: 50%;
+		padding: 0 0 70px 0;
+		margin: 0 0 -5px 0;
+	}
+	.contacts_title-block{
+		h1{
+			font-size: 40px;
+			line-height: 44px;
+			text-align: center;
+			padding: 40px 0;
+		}
+		hr{
+			background: linear-gradient(to right,#27CEF3 50%,#007CAF 50%);
+			height: 5px;
+			width: 180px;
+			border: 0;
+			margin: 0 auto;
+		}
+	}
+	.contacts_content{
+		position: relative;
+		img{
+			margin: 0 30px 0 0;
+			vertical-align: top;
+		}
+		
+		h2{
+			font-size: 40px;			
+			line-height: 35px;	
+			margin: 30px 0;
+			font-weight: 700;
+			font-family: "AvenirNextBold";		
+		}
+		h6{			
+			font-size: 18px;
+			line-height: 20px;
+			margin: 50px 0;
+		}
+		.phone{
+			border-bottom: 5px solid #78CDF1;
+			max-width: 400px;
+			
+		}
+		.email{
+			max-width: 400px;
+		}
+		.pic-block{
+			position: absolute;
+			top: 0;
+			left: 250px;
+		}
+	}
+		.contacts__form{
+			
+		}
+			.text-field-box-md{
+					padding: 0 0 0 30px;					
+					height: 50px;
+					border: 2px solid #fff;
+					background: #00A1E4;
+					margin:25px 20px;
+				}
+			.button_block{
+				margin: 0 35px;
+			}
+		.text-field-box-lg{
+			height: 140px;
+			width: 80%;
+			margin:25px 20px;
+			padding: 0 30px;
+			background: #00A1E4;
+			border: 2px solid #fff;
+		}
+			.submit_button{
+				width: 210px;
+				height: 50px;
+				border: 0;
+				background:#F47920;
+				font-size: 24px;
+				font-family: "AvenirNextBold";
+				text-align: center;
+				color: #fff;
+				border-radius: 8px;
+				margin-left: -15px;
+			}
+@media (max-width: 1000px){
+	.contacts__sec{
+			.col-6{
+				width: 100%;
+			}
+			.phone,.email{
+				margin: 0 auto;
+				max-width: 600px;
+				h2,h6{
+					display: inline-block;
+				}
+				h2{
+					margin-right: 10px;
+				}
+				h6{
+					
+				}
+			}
+		.pic-block{
+			right: 0;
+			left:auto;
+			img{
+				width: 80%;
+				height: 80%;
+				display: block;
+			}
+		}
+	}
+	.contacts_content-left{
+		margin-bottom: 30px;
+	}
+		.contacts__form{
+			.col-6{
+				width: 49.99%;
+			}
+		}
+			.text-field-box-md{
+				width: 300px;
+			}
+			.text-field-box-lg{
+				width: 645px;
+			}
+}
+@media (max-width: 768px){
+	.contacts_content-left{
+		margin-bottom: 30px;
+	}
+		.contacts__form{
+			.col-6{
+				width: 100%;
+			}
+		}
+		.phone,.email{
+			max-width: 300px;
+			h2{
+				font-size: 31px;
+			}
+			h6{
+				font-size: 16px;
+				margin-left: 0;
+			}
+			img{
+				margin: 0 10px 0 0;
+			}
+		}
+			.text-field-box-md{
+				width: 90%;
+				margin: 10px auto;
+			}
+			.text-field-box-lg{
+				width: 84%;
+				margin: 10px auto;
+			}
+			.button_block{
+				margin: 0 auto;
+			}
+			.contacts__sec{
+				.pic-block{
+					position: relative;
+					
+					img{
+						width: 30%;
+						height: 30%;
+						display: block;
+						margin: 0 auto;
+					}
+				}
+			}
+		}
+
+
+
